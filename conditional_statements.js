@@ -18,3 +18,4 @@ if (nautural_number === 0) {
 }else{
     console.log("The natural number is odd");
 }
+
