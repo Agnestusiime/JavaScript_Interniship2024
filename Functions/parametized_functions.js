@@ -30,3 +30,12 @@ function calculate_student_grade(stduent_name, student_class, marks){
     return `${stduent_name} in class ${student_class} scored ${marks} and got a grade of ${student_grade}`
 }
 console.log(calculate_student_grade("John", "SS3", 90));
+
+// Returning parametized fumction with initial parameters
+function grade_student(english_marks = 70, biology_marks){
+    const total_marks = english_marks + biology_marks;
+    return{ total_marks,
+        english_marks,
+        biology_marks}
+}
+console.log(grade_student(undefined, 80));
