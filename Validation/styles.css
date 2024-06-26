@@ -1,0 +1,20 @@
+p{
+    color: red;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color: #f4f4f4;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+}
